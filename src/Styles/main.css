@@ -1,0 +1,19 @@
+@import url(./Nav.css);
+@import url(./Info.css);
+@import url(./Button.css);
+@import url(./Add.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+:root{
+    --primary:rgb(53, 171, 250);
+    --secondary: white;
+    --third: black;
+}
+.info{
+    margin: 0 5%;
+}

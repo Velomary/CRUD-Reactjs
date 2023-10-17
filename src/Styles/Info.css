@@ -1,0 +1,67 @@
+.Liste{
+    margin-left: 65px;
+}
+.Liste div{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 10px;
+    width: 19%;
+    height: 50px;
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+    font-size: 25px;
+    font-weight: bold;
+}
+li{
+    /* height: 350px; */
+    position: relative;
+    border-collapse: collapse;
+    margin-top: 10px;
+    list-style: none;
+}
+li span{
+    float: right;
+    margin-top: -20px;
+    margin-right: 16px;
+    font-size: 18px;
+}
+li .nom, .prenom, .age{
+    text-align: center;
+    padding: 0 10px;
+    width: 20%;
+    height: 40px;
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+}
+.Focus{
+    text-align: center;
+    padding: 0 10px;
+    width: 20%;
+    height: 40px;
+    display: inline-block;
+    border-bottom: 1px solid var(--primary);
+
+}
+.nom input,.prenom input,.age input,.Focus input{
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: transparent;
+    cursor: pointer;
+}
+.nom input:focus,.prenom input:focus,.age input:focus{
+    border: none;
+}
+li .btn{
+    margin-bottom: -20px;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+}
+.btn button{
+    display: inline-block;
+
+}
